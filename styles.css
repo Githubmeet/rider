@@ -1,0 +1,118 @@
+body {
+    /* background-color: #e6d8ad; Light clay color */
+    font-family: 'Arial', sans-serif;
+    background-color: #cdcfd2;
+  }
+  
+
+  .navbar-brand {
+    color: #f8f9fa !important; /* Light background color */
+  }
+
+  .navbar-nav .nav-link {
+    color: #f8f9fa !important; /* Light background color */
+  }
+  .map-container {
+    margin: 50px auto;
+    width: 65%;
+    height: 65%;
+    float: left;
+  }
+  .location-details {
+    width: 35%;
+    float: left;
+    padding-left: 20px;
+  }
+  .map-img {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  .location-form {
+        margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  .form-group label {
+    font-weight: bold;
+  }
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  .form-group select {
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  .footersss {
+    /* background-color: #7b6852; */
+    color: #f8f9fa; /* Light background color */
+    padding: 20px 0;
+    text-align: center;
+  }
+  .ride-options {
+    margin: 20px;
+    flex: 1;
+    padding-left: 20px;
+  }
+  .ride-option {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .ride-img {
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  .ride-details {
+    flex: 1;
+  }
+  .ride-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .ride-price {
+    font-size: 1rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  .ride-description {
+    margin-bottom: 10px;
+  }
+  .btn-book {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  .btn-book:hover {
+    background-color: #0056b3;
+  }
+  .custom-control-label::before {
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+  }
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #007bff;
+  }
+
+
+  
